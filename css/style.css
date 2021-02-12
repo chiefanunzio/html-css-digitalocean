@@ -9,6 +9,10 @@ body{
   background-color: #f3f5f9;
 }
 
+a:focus, a:hover {
+  text-decoration: none;
+}
+
 #sing_up{
   border-color:blue;
   border: 1px solid;
@@ -34,6 +38,10 @@ header{
   background-image: url("../img/jumbo.svg");
 }
 
+section{
+  padding: 40px 0;
+}
+
 .c_jumbo{
  color: white;
  padding: 20px;
@@ -53,16 +61,9 @@ header{
   background-color: lightblue;
 }
 
-
-
 ul li{
   list-style: none;
   text-align: left;
-}
-
-section.container.row > img{
-  width: 100%;
-  vertical-align:middle;
 }
 
 .n_jumbotron{
@@ -70,7 +71,6 @@ section.container.row > img{
  padding: 30px 20px;
  border-radius: 5px;
  margin:40px 0;
-
 }
 
 .n_jumbotron > h2, .n_jumbotron > a{
@@ -83,7 +83,7 @@ section.container.row > img{
 
 form ul li > a >img{
   height: 20px;
-  text-align: left;
+  float: left;
 }
 
 form > ul li > input{
@@ -94,10 +94,26 @@ form > span{
   text-align: center;
 }
 
+form div > span > a{
+  text-decoration: underline;
+}
+
+#sign_up{
+  color:#ccc;
+}
+
 form > ul li{
   margin-bottom: 10px;
   padding:10px;
   width: 100%;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+.logo-sponsor > img{
+  width: 49%;
+}
+
+.logo-sponsor{
+  line-height: 130px;
 }
