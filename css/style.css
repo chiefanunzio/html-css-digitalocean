@@ -10,15 +10,11 @@ body {
   background-color: #f3f5f9;
 }
 
-h2 {
+h2, h4 {
   font-weight: 700;
-  margin-bottom: 10px;
+  margin: 15px 0;
 }
 
-h4{
-  font-weight: 700;
-
-}
 
 p {
   line-height: 25px;
@@ -27,6 +23,10 @@ p {
 
 ._center {
   text-align: center;
+}
+
+._pad{
+  padding: 20px;
 }
 
 a:focus, a:hover {
