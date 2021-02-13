@@ -17,7 +17,7 @@ h2 {
 
 h4{
   font-weight: 700;
-  
+
 }
 
 p {
@@ -142,7 +142,22 @@ form>ul li {
   color: grey;
   padding: 10px;;
 }
-
+/* designed for developers */
 ._title{
   margin-bottom: 50px;
+}
+
+.img_carousel img{
+  max-width: 500px;
+  padding: 15px;
+}
+
+.control_icon, .img_carousel{
+  display: inline-block;
+  font-size: 2em;
+  color: grey;
+}
+
+.control_icon:hover{
+  color:blue;
 }
