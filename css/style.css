@@ -15,7 +15,6 @@ h2, h4 {
   margin: 15px 0;
 }
 
-
 p {
   line-height: 25px;
   font-size: 1em;
@@ -25,7 +24,7 @@ p {
   text-align: center;
 }
 
-._pad{
+._pad {
   padding: 20px;
 }
 
@@ -136,28 +135,36 @@ form>ul li {
 }
 
 /* deploy seamlessly */
-
-.aside_nav li{
+.aside_nav li {
   border-left: 3px solid lightgrey;
   color: grey;
-  padding: 10px;;
+  padding: 10px;
+  ;
 }
+
 /* designed for developers */
-._title{
+._title {
   margin-bottom: 50px;
 }
 
-.img_carousel img{
+.img_carousel img {
   max-width: 500px;
   padding: 15px;
 }
 
-.control_icon, .img_carousel{
+.control_icon, .img_carousel {
   display: inline-block;
   font-size: 2em;
   color: grey;
 }
 
-.control_icon:hover{
-  color:blue;
+.control_icon:hover {
+  color: blue;
+}
+
+/* features business */
+
+div a > span{
+  margin-left: 10px;
+  vertical-align: middle;
 }
