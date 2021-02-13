@@ -15,6 +15,11 @@ h2 {
   margin-bottom: 10px;
 }
 
+h4{
+  font-weight: 700;
+  
+}
+
 p {
   line-height: 25px;
   font-size: 1em;
@@ -133,7 +138,11 @@ form>ul li {
 /* deploy seamlessly */
 
 .aside_nav li{
-  border-left: 3px solid grey;
+  border-left: 3px solid lightgrey;
   color: grey;
   padding: 10px;;
+}
+
+._title{
+  margin-bottom: 50px;
 }
