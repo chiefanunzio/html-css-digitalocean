@@ -36,13 +36,17 @@ a:focus, a:hover {
   background-color: white;
 }
 
+input[type="radio"]{
+  border: 5px solid #004c97;
+}
+
 ul li {
   list-style: none;
   text-align: left;
 }
 
 /* navbar header */
-          /* media button */
+          /* media */
 @media (min-width: 768px) and (max-width: 1000px) {
    .navbar-collapse.collapse {
        display: none !important;
@@ -53,8 +57,15 @@ ul li {
    .navbar-header{
         float: none;
    }
+
 }
-      /* media button close */
+
+@media all and (max-width: 576px){
+  .control_icon span{
+    display: none;
+  }
+}
+      /* media  close */
 
 #sing_up {
   border-color: blue;
@@ -79,7 +90,7 @@ header {
   background-image: url("../img/jumbo.svg");
 }
 
-section {
+section , footer{
   padding: 50px 0 ;
 }
 
@@ -162,13 +173,17 @@ form>ul li {
   margin-bottom: 50px;
 }
 
-.img_carousel img {
+.img_carousel  {
   max-width: 500px;
+}
 
+.img_carousel img{
+  max-width: 100%;
 }
 
 .control_icon, .img_carousel {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .control_icon{
@@ -214,4 +229,22 @@ div a > span{
 
 .img_carousel.bg_white img, .img_carousel.bg_white h6{
   margin-bottom: 25px;
+}
+
+
+._radio-server{
+  margin-top: 20px;
+}
+
+section._center.white-color{
+  background-image: radial-gradient(#2a35b0 100% , #fff 0% );
+}
+
+section._center.white-color div > a{
+  border-radius: 5px;
+  padding:10px 20px;
+}
+
+section._center.white-color div > h2{
+  margin-bottom: 30px;
 }
