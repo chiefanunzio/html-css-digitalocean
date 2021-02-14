@@ -42,6 +42,19 @@ ul li {
 }
 
 /* navbar header */
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .navbar-collapse.collapse {
+       display: none !important;
+   }
+   .navbar-toggle{
+        display: block !important;
+   }
+   .navbar-header{
+        float: none;
+   }
+}
+
 #sing_up {
   border-color: blue;
   border: 1px solid;
@@ -56,16 +69,17 @@ ul li {
   max-height: 20px;
 }
 
-#white-color {
+.white-color {
   color: white;
 }
 
 header {
+  padding: 70px 0 30px;
   background-image: url("../img/jumbo.svg");
 }
 
 section {
-  padding: 20px 0 30px;
+  padding: 50px 0 ;
 }
 
 .c_jumbo {
@@ -167,4 +181,10 @@ form>ul li {
 div a > span{
   margin-left: 10px;
   vertical-align: middle;
+}
+
+/* table section */
+
+._table{
+  background-image: radial-gradient(#2a35b0 100% , #fff 0% );
 }
