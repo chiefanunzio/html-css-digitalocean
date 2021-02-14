@@ -42,7 +42,7 @@ ul li {
 }
 
 /* navbar header */
-
+          /* media button */
 @media (min-width: 768px) and (max-width: 1000px) {
    .navbar-collapse.collapse {
        display: none !important;
@@ -54,6 +54,7 @@ ul li {
         float: none;
    }
 }
+      /* media button close */
 
 #sing_up {
   border-color: blue;
@@ -163,13 +164,17 @@ form>ul li {
 
 .img_carousel img {
   max-width: 500px;
-  padding: 15px;
+
 }
 
 .control_icon, .img_carousel {
   display: inline-block;
+}
+
+.control_icon{
   font-size: 2em;
   color: grey;
+  padding: 0 20px;
 }
 
 .control_icon:hover {
@@ -187,4 +192,26 @@ div a > span{
 
 ._table{
   background-image: radial-gradient(#2a35b0 100% , #fff 0% );
+}
+
+.table>tbody>tr>td{
+  color: #ddd;
+  border-top: 0;
+  border-bottom:2px solid lightgrey;
+}
+
+.table>tbody>tr>td:first-child{
+  color:white;
+  font-weight: bold;
+}
+
+/* rockerbox section */
+
+.img_carousel.bg_white {
+  padding: 60px 20px;
+  max-width: 40%;
+}
+
+.img_carousel.bg_white img, .img_carousel.bg_white h6{
+  margin-bottom: 25px;
 }
