@@ -51,6 +51,13 @@ ul li {
 
 /* navbar header */
           /* media */
+@media all and (max-width: 768px){
+  .control_icon span{
+    display: none;
+  }
+}
+
+
 @media (min-width: 768px) and (max-width: 1000px) {
    .navbar-collapse.collapse {
        display: none !important;
@@ -64,11 +71,6 @@ ul li {
 
 }
 
-@media all and (max-width: 576px){
-  .control_icon span{
-    display: none;
-  }
-}
       /* media  close */
 
 #sing_up {
@@ -277,3 +279,12 @@ section._center.white-color div > h2{
   margin-bottom: 30px;
 }
 /* footer */
+
+footer{
+  background-color: #171e6c ;
+  color: #ccc;
+}
+
+footer div > img{
+  margin-bottom: 10px;;
+}
