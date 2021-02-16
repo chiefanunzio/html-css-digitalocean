@@ -55,7 +55,6 @@ ul li {
   .control_icon span {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
@@ -70,7 +69,6 @@ ul li {
   .navbar-header {
     float: none;
   }
-
 }
 
 /* media  close */
@@ -161,18 +159,16 @@ li._center:hover {
 }
 
 /* media  */
-
-@media (min-width: 768px) and (max-width: 1000px){
-  .c_jumbo h1{
+@media (min-width: 768px) and (max-width: 1000px) {
+  .c_jumbo h1 {
     font-size: 40px;
   }
 
-  .c_jumbo p{
+  .c_jumbo p {
     font-size: 20px;
     line-height: 25px;
   }
 }
-
 
 form ul li>a>img {
   height: 20px;
